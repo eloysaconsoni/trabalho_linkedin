@@ -1,0 +1,42 @@
+	    
+	    .borda{ 
+	 	width:860px;
+	 	height:1000x;
+	 	border: 1px solid; /* As 4 bordas sólidas  */
+ 		border-color: gray ; /* cores: da borda */
+ 		background: white;
+ 		margin: auto;
+
+}
+		
+		#fundo {
+			 font-size: 20px; background-color: #1D334A;
+
+		}
+
+		#a{
+		color: white;
+
+	}
+		.ftperfil{
+		border-radius: 100px;
+		border-style: #d3d3d3;
+		width:200px;
+	 	height:200px;
+	 	position:absolute;
+	 	top:245px; 
+	 	left:570px;
+	}
+	#fundoGeral{
+		background: #d3d3d3;
+	}
+	.bordaPequena{
+		border-radius:10%; width: 70px; height: 30px; background: #d3d3d3; color: black
+	}
+	.capa {
+		
+		position:relative; top:0px; left:0px;
+
+	}
+
+	
