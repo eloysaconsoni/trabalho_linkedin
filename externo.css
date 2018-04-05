@@ -1,5 +1,42 @@
-	    
-	    .borda{ 
+
+/* fundo geral do MENU do meu codigo */
+	nav#menu {
+			display: inline-block; 
+			background-color: #1D334A;
+			font-size: 20px;
+			height: 70px;
+			width: 1300px;
+			background: #1D334A
+
+		}
+
+/* id usado em cada tag a*/
+	nav#menu a{
+		font-family: italic;
+		color: white;
+
+		
+	}
+
+/*Medidas ultilizadas na capa principal*/
+	.capa img {	
+		position:relative; 
+		top:0px; left:0px;
+		height: 315px;
+		width: 1300px;
+	}
+/*classe de medidas e formas da foto de perfil*/	
+	.ftperfil{
+		border-radius: 100px;
+		border-style: #d3d3d3;
+		width:200px;
+	 	height:200px;
+	 	position:absolute;
+	 	top:210px; 
+	 	left:570px;
+	}	
+/*Borda ultilizada para separar cada seção da página*/	    
+	.borda{ 
 	 	width:860px;
 	 	height:1000x;
 	 	border: 1px solid; /* As 4 bordas sólidas  */
@@ -8,35 +45,23 @@
  		margin: auto;
 
 }
-		
-		#fundo {
-			 font-size: 20px; background-color: #1D334A;
-
-		}
-
-		#a{
-		color: white;
-
-	}
-		.ftperfil{
-		border-radius: 100px;
-		border-style: #d3d3d3;
-		width:200px;
-	 	height:200px;
-	 	position:absolute;
-	 	top:245px; 
-	 	left:570px;
-	}
+/* fundo de todo o resto do meu codigo*/
 	#fundoGeral{
+		left: 5px;
+		margin-right: 30px;
 		background: #d3d3d3;
 	}
+/*Medida das imagens de ensino*/	
+	#iconesMenores{
+		height: 64px;
+		width: 65px;
+	}
+
+/* borda ultilizada em competencias*/
 	.bordaPequena{
 		border-radius:10%; width: 70px; height: 30px; background: #d3d3d3; color: black
 	}
-	.capa {
-		
-		position:relative; top:0px; left:0px;
 
-	}
+
 
 	
