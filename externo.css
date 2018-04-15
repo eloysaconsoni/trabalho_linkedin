@@ -1,55 +1,135 @@
-
-/* fundo geral do MENU do meu codigo */
-	nav#menu {
-			display: inline-block; 
-			background-color: #1D334A;
-			font-size: 20px;
-			height: 70px;
-			width: 1300px;
-			background: #1D334A
-
-		}
-
 /* id usado em cada tag a*/
-	nav#menu a{
-		font-family: italic;
-		color: white;
-
-		
-	}
-
+#menu{
+	background-color: #283E4A;
+	font-size: 10%;
+	position: fixed;
+	left: 0px;
+	width: 1920px;
+	height: 55px;
+}
 /*Medidas ultilizadas na capa principal*/
-	.capa img {	
-		position:relative; 
-		top:0px; left:0px;
-		height: 315px;
-		width: 1300px;
-	}
+	.capa img{
+	width: 860px;
+	height: 192px;
+	position: absolute;
+    top: 95px; 
+    left: 330px;
+
+    border-style: solid;
+    border-color: gray;
+    border-top-width: 1.5px; 
+    border-bottom-width: 0px;
+    border-right-width: 1px;
+    border-left-width: 1px; 
+}
 /*classe de medidas e formas da foto de perfil*/	
 	.ftperfil{
 		border-radius: 100px;
-		border-style: #d3d3d3;
-		width:200px;
-	 	height:200px;
+		border-style: solid;
+		border-color: white;
+		box-shadow: 0 1px 9px 1px; color: gray;
+		width:150px;
+	 	height:150px;
 	 	position:absolute;
-	 	top:210px; 
-	 	left:570px;
-	}	
-/*Borda ultilizada para separar cada seção da página*/	    
-	.borda{ 
-	 	width:860px;
-	 	height:1000x;
-	 	border: 1px solid; /* As 4 bordas sólidas  */
- 		border-color: gray ; /* cores: da borda */
- 		background: white;
- 		margin: auto;
+	 	top:205px; 
+	 	left:690px;
+	}
+
+	.capabranca img{
+	position: absolute;
+    top: 165px; 
+    left: 330px;
+    width: 860px;
+    height: 330px;
+    
+    border-style: solid;
+    border-color: gray;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px; 
 
 }
+	
+	#ensinobackground{
+		position: absolute;
+	    top: 520px; 
+	    left: 330px;
+	    width: 860px;
+	    height: 140px;
+    
+	    border-style: solid;
+	    border-color: gray;
+	    border-top-width: 1px;
+	    border-bottom-width: 1px;
+	    border-right-width: 1px;
+	    border-left-width: 1px;
+	}
+	#ensinobackground2{
+		position: absolute;
+	    top: 650px; 
+	    left: 330px;
+	    width: 860px;
+	    height: 100px;
+    
+	    border-style: solid;
+	    border-color: gray;
+	    border-top-width: 1px;
+	    border-bottom-width: 1px;
+	    border-right-width: 1px;
+	    border-left-width: 1px;
+	}
+	#ensinobackground3{
+		position: absolute;
+	    top: 750px; 
+	    left: 330px;
+	    width: 860px;
+	    height: 100px;
+    
+	    border-style: solid;
+	    border-color: gray;
+	    border-top-width: 1px;
+	    border-bottom-width: 1px;
+	    border-right-width: 1px;
+	    border-left-width: 1px;
+	}
+	#ensinotitulo{		
+		position: absolute;
+	    top: 500px; 
+	    left: 360px;
+		font-size: 23px;
+		font-style: normal;
+		font-family: Segoe UI;
+		font-weight: 400;
+	}
+	#ensino{
+		position: absolute;
+	    top: 565px; 
+	    left: 410px;
+	}
+	#ensino2{
+		position: absolute;
+	    top: 665px; 
+	    left: 410px;		
+	}
+	#ensino3{
+		position: absolute;
+		top: 765px;
+		left: 410px;
+	}
+
+	.ensino{
+		position: absolute;
+	    top:550px; 
+	    left: 335px;
+	    width: 60px;
+	    height: 60px;
+	    line-height: 5.3;
+	}
+
 /* fundo de todo o resto do meu codigo*/
 	#fundoGeral{
-		left: 5px;
-		margin-right: 30px;
-		background: #d3d3d3;
+		background: #F5F5F5;
 	}
 /*Medida das imagens de ensino*/	
 	#iconesMenores{
@@ -62,6 +142,120 @@
 		border-radius:10%; width: 70px; height: 30px; background: #d3d3d3; color: black
 	}
 
+.dadospessoais{
+	position: absolute;
+	top: 360px;
+	left: 575px;
 
+}
 
-	
+.dadospessoais{	
+	font-style: normal;
+	font-family: Segoe UI;
+	font-weight: 400;
+	line-height: 0.3;
+	text-align: center;
+}
+#quebra{
+    white-space: nowrap;
+}
+
+#competenciastitulo{
+	position: absolute;
+	top: 855px; 
+	left: 360px;
+	font-size: 23px;
+	font-style: normal;
+	font-family: Segoe UI;
+	font-weight: 400;
+
+}
+#competenciasbackground1{
+		position: absolute;
+	    top: 875px; 
+	    left: 330px;
+	    width: 860px;
+	    height: 80px;
+    
+	    border-style: solid;
+	    border-color: gray;
+	    border-top-width: 1px;
+	    border-bottom-width: 1px;
+	    border-right-width: 1px;
+	    border-left-width: 1px;
+}
+#competenciasbackground2{
+		position: absolute;
+	    top: 955px; 
+	    left: 330px;
+	    width: 860px;
+	    height: 80px;
+    
+	    border-style: solid;
+	    border-color: gray;
+	    border-top-width: 1px;
+	    border-bottom-width: 1px;
+	    border-right-width: 1px;
+	    border-left-width: 1px;
+}
+#competenciasbackground3{
+		position: absolute;
+	    top: 1035px; 
+	    left: 330px;
+	    width: 860px;
+	    height: 80px;
+    
+	    border-style: solid;
+	    border-color: gray;
+	    border-top-width: 1px;
+	    border-bottom-width: 1px;
+	    border-right-width: 1px;
+	    border-left-width: 1px;
+	    margin-bottom: 40px;
+}
+#competencias1{
+	position: absolute;
+	top: 900px; 
+	left: 370px;
+	font-size: 17px;
+	font-style: normal;
+	font-family: Segoe UI;
+	font-weight: 400;
+}
+#competencias2{
+	position: absolute;
+	top: 965px; 
+	left: 370px;
+	font-size: 17px;
+	font-style: normal;
+	font-family: Segoe UI;
+	font-weight: 400;
+}
+#competencias3{
+	position: absolute;
+	top: 1045px; 
+	left: 370px;
+	font-size: 17px;
+	font-style: normal;
+	font-family: Segoe UI;
+	font-weight: 400;
+}
+.rodapé img{
+    border-style: solid;
+    border-color: #D9DADC;
+    border-top-width: 0.5px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px; 
+    padding-top: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: #495D6E;
+    position: absolute;
+    font-size: 15px;
+}
+a.links:hover {
+    color: #0091CA;
+}
